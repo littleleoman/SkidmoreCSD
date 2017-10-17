@@ -1,0 +1,181 @@
+<resources>
+    <string name="app_name">Skidmore CS</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="contact_details">
+        <b>PHONE:</b>\n
+        (518) 580 - 5280\n
+
+        <b>FAX:</b>\n
+        (518) 580 - 5295\n\n
+
+        <b>MAIL:</b>\n
+        Skidmore College\n
+        815 North Broadway\n
+        Saratoga Springs, NY 12866
+    </string>
+
+    <string name="about_CS">
+        Computer science is the study of the theoretical foundations of information and computation
+        and their implementation and application. Computer science has many sub-fields; some
+        emphasize the computation of specific results (such as computer graphics), while others
+        relate to properties of computational problems (such as computational complexity theory).
+        Still others focus on the challenges in implementing computations. Computer science has
+        applications in a broad range of fields, from engineering to medicine, mathematics to
+        aeronautics, human-computer interaction, artificial intelligence, and beyond.
+    </string>
+
+    <string name="honors_label">
+        <b>Requirements to qualify for departmental honors:</b>
+    </string>
+
+    <string name="honors_req">
+        <b>1)</b>\tComplete all departmental requirements for the computer science major and have a
+        GPA of 3.5 or higher for all course work (MC and CS) taken in the department, together with
+        a course in another discipline that has substantial computer science content if taken as an
+        elective with permission of the department.\n\n
+        <b>2)</b>\tHave a GPA of 3.0 for all course work taken at Skidmore.\n\n
+        <b>3)</b>\tFile with the department, by the end of the official add-drop period of the
+        spring semester of the senior year, a declaration of intention to qualify for honors\n\n
+        <b>4)</b>\tSubmit an honors thesis to be read by a review committee, and give an oral
+        presentation of the thesis to the department. The review committee will evaluate the thesis
+        to determine if it is of the exceptional quality that merits honors; the committee\'s
+        recommendation will be submitted to the department for final adjudication.
+    </string>
+
+    <string name="CS106">
+        An introduction to the principles of design, implementation, and testing of object-oriented
+        programs. The course covers language features such as control structures, classes, file I/0,
+        and basic data structures including arrays. Other topics include recursion and fundamental
+        algorithms, such as elementary searching and sorting algorithms.
+    </string>
+
+    <string name="CS206">
+        Fundamentals of software development and algorithm design. Topics include recursion, data
+        structures, analysis of algorithms, and program verification.
+    </string>
+
+    <string name="CS230">
+        An introduction to different programming language paradigms: functional, logic, and
+        object-oriented programming. Students will also study language concepts such as regular
+        expressions, syntax grammars and semantics. Specific topics may include Perl, Scheme, Java,
+        C++, and Prolog.
+    </string>
+
+    <string name="CS275">
+        An introductory exploration of research in computer science. The students, in collaboration
+        with a faculty mentor, will participate in a research project in a particular area of
+        computer science. The research projects may, for example, include designing new algorithms
+        for computational problems, surveying the research literature, implementing existing
+        algorithms from the research literature, or performing computational experiments.
+    </string>
+
+    <string name="CS305">
+        A study of techniques used to design algorithms for complex computational problems that are
+        efficient in terms of time and memory required during execution. Students will also learn
+        the techniques used to evaluate an algorithm\'s efficiency. Topics include advanced sorting
+        techniques, advanced data structures, dynamic programming, greedy algorithms, amortized
+        analysis, graph algorithms, network flow algorithms, and linear programming.
+    </string>
+
+    <string name="CS306">
+        Using abstract machine models to measure the complexity of computational problems and to
+        explore the limits of computational power. In addition, students will investigate strategies
+        to deal with intractable computational problems when they arise. Topics include finite
+        automata, Turing machines, undecidability, NP-completeness, approximation algorithms,
+        heuristic algorithms, and experimental algorithmics.
+    </string>
+
+    <string name="CS318">
+        An introduction to multilevel machines, including basic components of a computer, digital
+        circuits, Boolean algebra, microprogramming, machine and assembly languages, and operating
+        systems.
+    </string>
+
+    <string name="CS322">
+        An introduction to the field of artificial intelligence. The course covers the main
+        techniques used to develop computer programs to solve problems that we normally think of as
+        requiring intelligence. Topics include search, games, knowledge representation, logical
+        reasoning systems, and machine learning.
+    </string>
+
+    <string name="CS323">
+        A study of the design, implementation, documentation, and testing of software. Focuses on
+        object-oriented design using UML (Unified Modeling Language) models and design patterns,
+        implementing and documenting large software systems by working in teams, and methods for
+        software testing and debugging.
+    </string>
+
+    <string name="CS324">
+        A study of the concepts and techniques in concurrent or multithreaded programming that form
+        the basis for operating systems, as well as real-time, distributed, and multi-processor
+        systems. Focuses on concurrent programming with threads and shared variables using locks,
+        semaphores, and monitors, and explores such issues as thread safety and liveness, mutual
+        exclusion, and message passing between processes.
+    </string>
+
+    <string name="CS325">
+        Computer graphics involves using computers to generate images, as opposed to generating
+        images using cameras. Computer graphics images typically try to mimic reality. In this
+        course, students will explore the necessary background for further study in computer
+        graphics. Students will explore the basics of human vision that influence the way computers
+        generate images; projections from three-dimensional space to two-dimensional space; various
+        models of real-world entities such as lighting, surface reflectance, and color; and classic
+        algorithms in computer graphics that students will implement and with which they will have
+        the opportunity to experiment.
+    </string>
+
+    <string name="CS371">
+        Special study in computing outside of the regular departmental offerings.
+    </string>
+
+    <string name="CS381">
+        Optional for computer science majors. Recommended for those working toward professional
+        careers or graduate study in computer science, and those seeking to satisfy the criteria for
+        departmental honors.
+    </string>
+
+    <string name="MECKMANN">
+        Professor Eckmann joined the department in the Fall of 2004 as a lecturer of computer
+        science, and in the Fall of 2007, he was appointed to the position of assistant professor.
+        Mike received his Ph.D. in computer science from Lehigh University in 2007, with a
+        dissertation titled \"Sifting for Better Features to Track -- Exploiting Space and Time.\”
+        He also holds a Masters Degree in computer science and Bachelor’s degrees in mathematics and
+        computer engineering, all from Lehigh University. His research interests are in computer
+        vision and graphics and he has authored/co-authored a number of papers in the area. He
+        teaches computer science courses in the department.
+    </string>
+
+    <string name="TOCONNEL">
+        Professor O\'Connell received his Ph.D. in computer science from The University at Albany,
+        completing a thesis that applied ideas from theoretical computer science to problems in game
+        theory. Prior to coming to Skidmore, Prof. O\'Connell worked as a software developer at IBM
+        and a visiting professor at Dartmouth College. Prof. O\'Connell\'s current research interest
+        is in developing heuristic algorithms for hard computational problems. Prof. O\'Connell
+        teaches computer science courses at all levels, especially in the areas of algorithms and
+        the theory of computation.
+    </string>
+
+    <string name="APRASAD">
+        Professor Prasad received her Ph.D. in Computer Science from Dartmouth College, completing
+        a thesis that proposed techniques to allow users to share information, when using mobile
+        health applications, while protecting their privacy.  Prior to coming to Skidmore, she
+        worked as a visiting professor at Amherst College. Her research interest is in developing
+        secure and usable applications for mobile and wearable technologies. She teaches computer
+        science courses at all levels, especially in the areas of systems and security.
+    </string>
+
+    <string name="CREILLY">
+        No information to display.
+    </string>
+
+    <string name="DREAD">
+        No information to display.
+    </string>
+
+
+</resources>
