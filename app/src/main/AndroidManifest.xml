@@ -22,6 +22,7 @@
         <activity
             android:name=".AboutCS"
             android:parentActivityName=".Home"
+            android:label="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tABOUT"
             android:theme="@style/AppTheme.NoActionBar">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -31,6 +32,7 @@
         </activity>
         <activity
             android:name=".Honors"
+            android:label="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tHONORS"
             android:parentActivityName=".Home"
             android:theme="@style/AppTheme.NoActionBar">
 
@@ -41,6 +43,7 @@
         </activity>
         <activity
             android:name=".CourseList"
+            android:label="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCOURSES"
             android:parentActivityName=".Home"
             android:theme="@style/AppTheme.NoActionBar">
 
@@ -51,6 +54,7 @@
         </activity>
         <activity
             android:name=".CourseDescription"
+            android:label=""
             android:parentActivityName=".CourseList"
             android:theme="@style/AppTheme.NoActionBar">
 
@@ -61,6 +65,7 @@
         </activity>
         <activity
             android:name=".FacultyList"
+            android:label="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFACULTY"
             android:parentActivityName=".Home"
             android:theme="@style/AppTheme.NoActionBar">
 
@@ -71,7 +76,30 @@
         </activity>
         <activity
             android:name=".FacultyInfo"
+            android:label=""
             android:parentActivityName=".FacultyList"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Home" />
+        </activity>
+        <activity
+            android:name=".MajorRequirements"
+            android:label="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tMAJOR"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Home" />
+        </activity>
+        <activity
+            android:name=".MinorRequirements"
+            android:label="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tMINOR"
+            android:parentActivityName=".Home"
             android:theme="@style/AppTheme.NoActionBar">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->

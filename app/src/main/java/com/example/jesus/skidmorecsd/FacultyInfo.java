@@ -6,10 +6,13 @@ import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import java.util.ArrayList;
 
 public class FacultyInfo extends AppCompatActivity {
 
@@ -31,6 +34,8 @@ public class FacultyInfo extends AppCompatActivity {
         title = receivedIntent.getStringExtra("TITLE");
         ID = receivedIntent.getStringExtra("ID");
 
+        Log.d("EMAIL: ", email);
+
         memberTitle = (TextView) findViewById(R.id.memberTitle);
         memberTitle.setText(title);
         memberInfo = (TextView) findViewById(R.id.memberInformation);
@@ -40,11 +45,13 @@ public class FacultyInfo extends AppCompatActivity {
         sendEmail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent mailIntent = new Intent(Intent.ACTION_VIEW);
-                mailIntent.setType("plain/text");
-                mailIntent.setData(Uri.parse(email));
-                mailIntent.setClassName("com.google.android.gm", "com.google.android.gm.ConversationListActivity");
-                startActivity(mailIntent);
+                Intent mailIntent = new Intent(Intent.ACTION_SENDTO);
+                mailIntent.setType("text/plain");
+                mailIntent.setData(Uri.parse("mailto:"+email)); // Only email apps should handle this
+
+                if (mailIntent.resolveActivity(getPackageManager()) != null) {
+                    startActivity(mailIntent);
+                }
             }
         });
 

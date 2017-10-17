@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Skidmore CS</string>
+    <string name="app_name">\t\t\t\t\t\t\t\t\t\t\t\t\t\tSKIDMORE CS</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -45,6 +45,26 @@
         presentation of the thesis to the department. The review committee will evaluate the thesis
         to determine if it is of the exceptional quality that merits honors; the committee\'s
         recommendation will be submitted to the department for final adjudication.
+    </string>
+
+    <string name="major_req">
+        <b>1)</b> CS 206\n
+        <b>2)</b> CS 230\n
+        <b>3)</b> CS 305\n
+        <b>4)</b> CS 306\n
+        <b>5)</b> CS 318\n
+        <b>6)</b> MC 215\n
+        <b>7)</b> MA 200\n
+        <b>8)</b> One CS course at the 200 level\n
+        <b>9)</b> Two CS courses at the 300 level
+    </string>
+
+    <string name="minor_req">
+        <b>1)</b> CS 206\n
+        <b>2)</b> CS 318\n
+        <b>3)</b> CS 230\n
+        <b>4)</b> Two additional CS courses\n
+        <b>5)</b> Two CS courses at the 305 level\
     </string>
 
     <string name="CS106">
